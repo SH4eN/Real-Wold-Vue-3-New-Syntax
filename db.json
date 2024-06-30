@@ -1,0 +1,24 @@
+{
+  "repository": {
+    "name": "example-repo",
+    "description": "This is an example repository",
+    "public": true,
+    "owner": {
+      "username": "your-username",
+      "id": 12345678,
+      "type": "User"
+    },
+    "files": [
+      {
+        "name": "example.json",
+        "type": "file",
+        "content": {
+          "name": "John Doe",
+          "age": 30,
+          "email": "john.doe@example.com",
+          "is_active": true
+        }
+      }
+    ]
+  }
+}
